@@ -5,9 +5,10 @@ A drop in replacement for https://sigs.k8s.io/controller-runtime/pkg/envtest usi
 
 ## Why?
 
-* `sigs.k8s.io/controller-runtime/pkg/envtest` uses binaries under the hood to run clusters. This uses containers!
+* `sigs.k8s.io/controller-runtime/pkg/envtest` uses process execution under the hood to run clusters. This uses containers to wrap those processes!
 * Lesss CPU and Memory overhead
 * Provides a full Kubernetes environment for full end-to-end tests (eg. Nodes provided)
+* Easier to debug fails eg. Get a session on the clusters container
 
 ## Usage
 
