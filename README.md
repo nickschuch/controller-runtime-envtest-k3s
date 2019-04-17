@@ -24,4 +24,4 @@ Before                      |  After
 This project is standing on the shoulders of giants.
 
 * [K3s](https://k3s.io) - Amazing project which makes it super easy to spin up Kubernetes environments.
-* [envtest](https://sigs.k8s.io/controller-runtime/pkg/envtest)
+* [envtest](https://sigs.k8s.io/controller-runtime/pkg/envtest) - We are still using this under the hood for some of the heavily lifting eg. Installing CRDs.
